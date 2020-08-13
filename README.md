@@ -30,8 +30,7 @@ python3 fdn.py&
 ```
 
 ## Licence
-
-[![GitHub license](https://img.shields.io/github/license/0x0is1/fb-desktop-notifier)](https://github.com/0x0is1/fb-desktop-notifier/blob/master/LICENSE)
+![GitHub](https://img.shields.io/github/license/0x0is1/fb-desktop-notifier)
 
 This project is licensed under the MIT License
 
