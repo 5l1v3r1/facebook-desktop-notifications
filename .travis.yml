@@ -9,7 +9,7 @@ python: 3.7.3
 
 # Installing requirements
 install:
-  - pip install -r requirements.txt
+  - pip3 install -r requirements.txt
 
 # Run the unit test
 script:
