@@ -10,8 +10,8 @@ python: 3.8
 # Installing requirements
 install:
   - sudo apt-get install python3-dev
-  - pip3 install dbus-python
-  - pip3 install -r requirements.txt
+  - pip install dbus-python
+  - pip install -r requirements.txt
 
 # Run the unit test
 script:
