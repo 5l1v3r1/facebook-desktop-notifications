@@ -5,7 +5,7 @@ sudo: false
 language: python
 
 # Set the python version to 2.7
-python: 3.7.3
+python: 3.8
 
 # Installing requirements
 install:
