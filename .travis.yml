@@ -1,6 +1,4 @@
 
-dist: xenial
-
 # Disable sudo to speed up the build
 sudo: false
 
@@ -13,7 +11,8 @@ python: 3.8
 # Installing requirements
 install:
   - sudo apt-get install python3-dev
-  - pip install dbus-next
+  - sudo apt-get install notify-send
+  - pip install dbus-python
   - pip install -r requirements.txt
 
 # Run the unit test
