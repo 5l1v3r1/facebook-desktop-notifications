@@ -12,6 +12,7 @@ python: 3.8
 install:
   - sudo apt-get install python3-dev
   - sudo apt-get install libnotify-bin
+  - sudo apt-get install build-essential libdbus-glib-1-dev libgirepository1.0-dev
   - pip install dbus-python
   - pip install -r requirements.txt
 
